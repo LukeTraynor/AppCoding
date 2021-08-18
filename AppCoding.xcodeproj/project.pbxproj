@@ -25,6 +25,8 @@
 		F8DD670426CDC05C00625D9B /* PeopleData.json in Resources */ = {isa = PBXBuildFile; fileRef = F8DD670226CDC05C00625D9B /* PeopleData.json */; };
 		F8DD670626CDC46700625D9B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD670526CDC46700625D9B /* People.swift */; };
 		F8DD670726CDC46700625D9B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD670526CDC46700625D9B /* People.swift */; };
+		F8DD670926CDC68700625D9B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD670826CDC68700625D9B /* ModelData.swift */; };
+		F8DD670A26CDC68700625D9B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD670826CDC68700625D9B /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 		F8DD66FF26CD990D00625D9B /* mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapview.swift; sourceTree = "<group>"; };
 		F8DD670226CDC05C00625D9B /* PeopleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PeopleData.json; path = ../../../Downloads/BuildingListsAndNavigation/Complete/Landmarks/Resources/PeopleData.json; sourceTree = "<group>"; };
 		F8DD670526CDC46700625D9B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		F8DD670826CDC68700625D9B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 				F8DD66FF26CD990D00625D9B /* mapview.swift */,
 				F8DD670226CDC05C00625D9B /* PeopleData.json */,
 				F8DD670526CDC46700625D9B /* People.swift */,
+				F8DD670826CDC68700625D9B /* ModelData.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -312,6 +316,7 @@
 				F886288126CCA6C800B7E4F3 /* ContentView.swift in Sources */,
 				F886287F26CCA6C800B7E4F3 /* AppCoding.swift in Sources */,
 				F8DD670626CDC46700625D9B /* People.swift in Sources */,
+				F8DD670926CDC68700625D9B /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +329,7 @@
 				F886288226CCA6C800B7E4F3 /* ContentView.swift in Sources */,
 				F886288026CCA6C800B7E4F3 /* AppCoding.swift in Sources */,
 				F8DD670726CDC46700625D9B /* People.swift in Sources */,
+				F8DD670A26CDC68700625D9B /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
