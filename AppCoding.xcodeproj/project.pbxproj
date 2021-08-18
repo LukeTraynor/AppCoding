@@ -11,8 +11,8 @@
 		F886287226CCA6C800B7E4F3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886287126CCA6C800B7E4F3 /* Tests_iOSLaunchTests.swift */; };
 		F886287C26CCA6C800B7E4F3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886287B26CCA6C800B7E4F3 /* Tests_macOS.swift */; };
 		F886287E26CCA6C800B7E4F3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886287D26CCA6C800B7E4F3 /* Tests_macOSLaunchTests.swift */; };
-		F886287F26CCA6C800B7E4F3 /* VibratingIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285926CCA6C600B7E4F3 /* VibratingIOSApp.swift */; };
-		F886288026CCA6C800B7E4F3 /* VibratingIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285926CCA6C600B7E4F3 /* VibratingIOSApp.swift */; };
+		F886287F26CCA6C800B7E4F3 /* AppCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285926CCA6C600B7E4F3 /* AppCoding.swift */; };
+		F886288026CCA6C800B7E4F3 /* AppCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285926CCA6C600B7E4F3 /* AppCoding.swift */; };
 		F886288126CCA6C800B7E4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285A26CCA6C600B7E4F3 /* ContentView.swift */; };
 		F886288226CCA6C800B7E4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285A26CCA6C600B7E4F3 /* ContentView.swift */; };
 		F886288326CCA6C800B7E4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F886285B26CCA6C800B7E4F3 /* Assets.xcassets */; };
@@ -21,6 +21,10 @@
 		F8DD66FE26CD978E00625D9B /* circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FC26CD978E00625D9B /* circleimage.swift */; };
 		F8DD670026CD990D00625D9B /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FF26CD990D00625D9B /* mapview.swift */; };
 		F8DD670126CD990D00625D9B /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FF26CD990D00625D9B /* mapview.swift */; };
+		F8DD670326CDC05C00625D9B /* PeopleData.json in Resources */ = {isa = PBXBuildFile; fileRef = F8DD670226CDC05C00625D9B /* PeopleData.json */; };
+		F8DD670426CDC05C00625D9B /* PeopleData.json in Resources */ = {isa = PBXBuildFile; fileRef = F8DD670226CDC05C00625D9B /* PeopleData.json */; };
+		F8DD670626CDC46700625D9B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD670526CDC46700625D9B /* People.swift */; };
+		F8DD670726CDC46700625D9B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD670526CDC46700625D9B /* People.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F886285926CCA6C600B7E4F3 /* VibratingIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratingIOSApp.swift; sourceTree = "<group>"; };
+		F886285926CCA6C600B7E4F3 /* AppCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoding.swift; sourceTree = "<group>"; };
 		F886285A26CCA6C600B7E4F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F886285B26CCA6C800B7E4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F886286026CCA6C800B7E4F3 /* AppCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +58,8 @@
 		F886287D26CCA6C800B7E4F3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		F8DD66FC26CD978E00625D9B /* circleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleimage.swift; sourceTree = "<group>"; };
 		F8DD66FF26CD990D00625D9B /* mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapview.swift; sourceTree = "<group>"; };
+		F8DD670226CDC05C00625D9B /* PeopleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PeopleData.json; path = ../../../Downloads/BuildingListsAndNavigation/Complete/Landmarks/Resources/PeopleData.json; sourceTree = "<group>"; };
+		F8DD670526CDC46700625D9B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,13 @@
 		F886285826CCA6C600B7E4F3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				F886285926CCA6C600B7E4F3 /* VibratingIOSApp.swift */,
+				F886285926CCA6C600B7E4F3 /* AppCoding.swift */,
 				F886285A26CCA6C600B7E4F3 /* ContentView.swift */,
 				F886285B26CCA6C800B7E4F3 /* Assets.xcassets */,
 				F8DD66FC26CD978E00625D9B /* circleimage.swift */,
 				F8DD66FF26CD990D00625D9B /* mapview.swift */,
+				F8DD670226CDC05C00625D9B /* PeopleData.json */,
+				F8DD670526CDC46700625D9B /* People.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -265,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F886288326CCA6C800B7E4F3 /* Assets.xcassets in Resources */,
+				F8DD670326CDC05C00625D9B /* PeopleData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F886288426CCA6C800B7E4F3 /* Assets.xcassets in Resources */,
+				F8DD670426CDC05C00625D9B /* PeopleData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +310,8 @@
 				F8DD66FD26CD978E00625D9B /* circleimage.swift in Sources */,
 				F8DD670026CD990D00625D9B /* mapview.swift in Sources */,
 				F886288126CCA6C800B7E4F3 /* ContentView.swift in Sources */,
-				F886287F26CCA6C800B7E4F3 /* VibratingIOSApp.swift in Sources */,
+				F886287F26CCA6C800B7E4F3 /* AppCoding.swift in Sources */,
+				F8DD670626CDC46700625D9B /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +322,8 @@
 				F8DD66FE26CD978E00625D9B /* circleimage.swift in Sources */,
 				F8DD670126CD990D00625D9B /* mapview.swift in Sources */,
 				F886288226CCA6C800B7E4F3 /* ContentView.swift in Sources */,
-				F886288026CCA6C800B7E4F3 /* VibratingIOSApp.swift in Sources */,
+				F886288026CCA6C800B7E4F3 /* AppCoding.swift in Sources */,
+				F8DD670726CDC46700625D9B /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

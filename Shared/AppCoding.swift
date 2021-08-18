@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct VibratingIOSApp: App {
+struct AppCodingApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
