@@ -17,6 +17,10 @@
 		F886288226CCA6C800B7E4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886285A26CCA6C600B7E4F3 /* ContentView.swift */; };
 		F886288326CCA6C800B7E4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F886285B26CCA6C800B7E4F3 /* Assets.xcassets */; };
 		F886288426CCA6C800B7E4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F886285B26CCA6C800B7E4F3 /* Assets.xcassets */; };
+		F8DD66FD26CD978E00625D9B /* circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FC26CD978E00625D9B /* circleimage.swift */; };
+		F8DD66FE26CD978E00625D9B /* circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FC26CD978E00625D9B /* circleimage.swift */; };
+		F8DD670026CD990D00625D9B /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FF26CD990D00625D9B /* mapview.swift */; };
+		F8DD670126CD990D00625D9B /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD66FF26CD990D00625D9B /* mapview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +44,16 @@
 		F886285926CCA6C600B7E4F3 /* VibratingIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibratingIOSApp.swift; sourceTree = "<group>"; };
 		F886285A26CCA6C600B7E4F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F886285B26CCA6C800B7E4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F886286026CCA6C800B7E4F3 /* VibratingIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibratingIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F886286626CCA6C800B7E4F3 /* VibratingIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibratingIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F886286026CCA6C800B7E4F3 /* AppCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F886286626CCA6C800B7E4F3 /* AppCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F886286B26CCA6C800B7E4F3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F886286F26CCA6C800B7E4F3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		F886287126CCA6C800B7E4F3 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		F886287726CCA6C800B7E4F3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F886287B26CCA6C800B7E4F3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F886287D26CCA6C800B7E4F3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F8DD66FC26CD978E00625D9B /* circleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleimage.swift; sourceTree = "<group>"; };
+		F8DD66FF26CD990D00625D9B /* mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 				F886285926CCA6C600B7E4F3 /* VibratingIOSApp.swift */,
 				F886285A26CCA6C600B7E4F3 /* ContentView.swift */,
 				F886285B26CCA6C800B7E4F3 /* Assets.xcassets */,
+				F8DD66FC26CD978E00625D9B /* circleimage.swift */,
+				F8DD66FF26CD990D00625D9B /* mapview.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -105,8 +113,8 @@
 		F886286126CCA6C800B7E4F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F886286026CCA6C800B7E4F3 /* VibratingIOS.app */,
-				F886286626CCA6C800B7E4F3 /* VibratingIOS.app */,
+				F886286026CCA6C800B7E4F3 /* AppCoding.app */,
+				F886286626CCA6C800B7E4F3 /* AppCoding.app */,
 				F886286B26CCA6C800B7E4F3 /* Tests iOS.xctest */,
 				F886287726CCA6C800B7E4F3 /* Tests macOS.xctest */,
 			);
@@ -134,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F886285F26CCA6C800B7E4F3 /* VibratingIOS (iOS) */ = {
+		F886285F26CCA6C800B7E4F3 /* AppCoding (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F886288726CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "VibratingIOS (iOS)" */;
+			buildConfigurationList = F886288726CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "AppCoding (iOS)" */;
 			buildPhases = (
 				F886285C26CCA6C800B7E4F3 /* Sources */,
 				F886285D26CCA6C800B7E4F3 /* Frameworks */,
@@ -146,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = "VibratingIOS (iOS)";
+			name = "AppCoding (iOS)";
 			productName = "VibratingIOS (iOS)";
-			productReference = F886286026CCA6C800B7E4F3 /* VibratingIOS.app */;
+			productReference = F886286026CCA6C800B7E4F3 /* AppCoding.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F886286526CCA6C800B7E4F3 /* VibratingIOS (macOS) */ = {
+		F886286526CCA6C800B7E4F3 /* AppCoding (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F886288A26CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "VibratingIOS (macOS)" */;
+			buildConfigurationList = F886288A26CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "AppCoding (macOS)" */;
 			buildPhases = (
 				F886286226CCA6C800B7E4F3 /* Sources */,
 				F886286326CCA6C800B7E4F3 /* Frameworks */,
@@ -163,9 +171,9 @@
 			);
 			dependencies = (
 			);
-			name = "VibratingIOS (macOS)";
+			name = "AppCoding (macOS)";
 			productName = "VibratingIOS (macOS)";
-			productReference = F886286626CCA6C800B7E4F3 /* VibratingIOS.app */;
+			productReference = F886286626CCA6C800B7E4F3 /* AppCoding.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F886286A26CCA6C800B7E4F3 /* Tests iOS */ = {
@@ -230,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F886285726CCA6C600B7E4F3 /* Build configuration list for PBXProject "VibratingIOS" */;
+			buildConfigurationList = F886285726CCA6C600B7E4F3 /* Build configuration list for PBXProject "AppCoding" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,8 +251,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F886285F26CCA6C800B7E4F3 /* VibratingIOS (iOS) */,
-				F886286526CCA6C800B7E4F3 /* VibratingIOS (macOS) */,
+				F886285F26CCA6C800B7E4F3 /* AppCoding (iOS) */,
+				F886286526CCA6C800B7E4F3 /* AppCoding (macOS) */,
 				F886286A26CCA6C800B7E4F3 /* Tests iOS */,
 				F886287626CCA6C800B7E4F3 /* Tests macOS */,
 			);
@@ -289,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DD66FD26CD978E00625D9B /* circleimage.swift in Sources */,
+				F8DD670026CD990D00625D9B /* mapview.swift in Sources */,
 				F886288126CCA6C800B7E4F3 /* ContentView.swift in Sources */,
 				F886287F26CCA6C800B7E4F3 /* VibratingIOSApp.swift in Sources */,
 			);
@@ -298,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DD66FE26CD978E00625D9B /* circleimage.swift in Sources */,
+				F8DD670126CD990D00625D9B /* mapview.swift in Sources */,
 				F886288226CCA6C800B7E4F3 /* ContentView.swift in Sources */,
 				F886288026CCA6C800B7E4F3 /* VibratingIOSApp.swift in Sources */,
 			);
@@ -326,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		F886286D26CCA6C800B7E4F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F886285F26CCA6C800B7E4F3 /* VibratingIOS (iOS) */;
+			target = F886285F26CCA6C800B7E4F3 /* AppCoding (iOS) */;
 			targetProxy = F886286C26CCA6C800B7E4F3 /* PBXContainerItemProxy */;
 		};
 		F886287926CCA6C800B7E4F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F886286526CCA6C800B7E4F3 /* VibratingIOS (macOS) */;
+			target = F886286526CCA6C800B7E4F3 /* AppCoding (macOS) */;
 			targetProxy = F886287826CCA6C800B7E4F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,8 +480,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ApolloDesigns.VibratingIOS;
-				PRODUCT_NAME = VibratingIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = ApolloDesigns.AppCoding;
+				PRODUCT_NAME = AppCoding;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -497,8 +509,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ApolloDesigns.VibratingIOS;
-				PRODUCT_NAME = VibratingIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = ApolloDesigns.AppCoding;
+				PRODUCT_NAME = AppCoding;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -527,7 +539,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ApolloDesigns.VibratingIOS;
-				PRODUCT_NAME = VibratingIOS;
+				PRODUCT_NAME = AppCoding;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -554,7 +566,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ApolloDesigns.VibratingIOS;
-				PRODUCT_NAME = VibratingIOS;
+				PRODUCT_NAME = AppCoding;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -661,7 +673,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F886285726CCA6C600B7E4F3 /* Build configuration list for PBXProject "VibratingIOS" */ = {
+		F886285726CCA6C600B7E4F3 /* Build configuration list for PBXProject "AppCoding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F886288526CCA6C800B7E4F3 /* Debug */,
@@ -670,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F886288726CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "VibratingIOS (iOS)" */ = {
+		F886288726CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "AppCoding (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F886288826CCA6C800B7E4F3 /* Debug */,
@@ -679,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F886288A26CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "VibratingIOS (macOS)" */ = {
+		F886288A26CCA6C800B7E4F3 /* Build configuration list for PBXNativeTarget "AppCoding (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F886288B26CCA6C800B7E4F3 /* Debug */,
